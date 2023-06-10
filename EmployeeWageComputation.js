@@ -3,7 +3,6 @@ console.log("Welcome to Employee Wage Computation Program");
 //UC4: Solving Using Switch Case
 
 var wagePerHour = 20;
-var partTimeWage;
 var employeeHour;
 
 let attendance = Math.floor(Math.random()*3);
