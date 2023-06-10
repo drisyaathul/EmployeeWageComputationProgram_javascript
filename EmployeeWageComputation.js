@@ -1,8 +1,10 @@
 console.log("Welcome to Employee Wage Computation Program");
 
 //UC4: Solving Using Switch Case
+//UC5: Employee Wage per Month
 
-var wagePerHour = 20;
+const workingDays = 20;
+const wagePerHour = 20;
 var employeeHour;
 
 let attendance = Math.floor(Math.random()*3);
@@ -25,7 +27,11 @@ switch(attendance) {
         break
 }
 let dailyEmployeeWage = employeeHour * wagePerHour;
+let empWagePerMonth = dailyEmployeeWage * workingDays;
 console.log("Employee Daily Wage : "+dailyEmployeeWage);
+console.log("Employee Wage per Month : "+empWagePerMonth);
+
+
 
 
 
